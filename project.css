@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 2000px;
+    width: 1250px;
+    border: 2px solid black;
+    margin: 0px;
+}
+.navigation{
+    height: 50px;
+    width: 1250px;
+    background-color: rgba(84, 70, 70, 0.441);
+    position: fixed;
+    color: white;
+    font-size: 20px;
+}
+.Nevbox a{
+    color: aliceblue;
+    text-decoration:none;
+    /* text-align: center; */
+    margin: auto;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+}
+#templete{
+    height: 550px;
+    width: 100%;
+    background-image: url(b2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.titlebar{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.body{
+    height: 1150px;
+    width: 1250px;
+    border: none;
+    background-color: aquamarine;
+    border-bottom: 2px solid black;
+    margin: 0px;
+    /* padding-left: 25px; */
+    float: left;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+    grid-column-gap:25px;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-row-gap:25px;
+}
+.box{
+    height: 200px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 20px;
+    margin-top: 25px;
+    border-radius: 15px;
+    transition:ease all 0.5s ;
+}
+.box:hover{
+    box-shadow: 0px 0px 30px red ;
+    transform: scale(1.2);
+}
+.box img{
+    height: 200px;
+    width: 150px;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Nevbox{
+    height: 40px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    display: flex;
+}
+div{
+    color: aqua;
+}
